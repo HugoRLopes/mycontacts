@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="en" ng-app="myContacts" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="myContacts" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="myContacts" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="myContacts" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>myContacts App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/foundation/css/foundation.min.css">
+</head>
+<body>
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="container">
+    <div class="row">
+        <div class="large-12 columns">
+            <h1>My Contacts</h1>
+            <hr>
+        </div>
+    </div>
+    <div ng-view></div>
+</div>
+
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="bower_components/firebase/firebase.js"></script>
+<script src="bower_components/angularfire/dist/angularfire.min.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/list/list.js"></script>
+<!--<script src="contacts/contacts.js"></script>-->
+<!--<script src="contact-edit/contact-edit.js"></script>-->
+<!--<script src="contact-delete/contact-delete.js"></script>-->
+<!--<script src="contact-view/contact-view.js"></script>-->
+</body>
+</html>
